@@ -1,15 +1,10 @@
 #!/usr/bin/env bash
 
-########################
-# Author: Shinichi Okada
-# Date: 2021-12-18
-###########################
-
 unset github_username dir repo license_url
 
 script_name=$(basename "$0")
 dir=""
-version="0.3.0"
+version="0.0.0"
 gitstart_cofig=$HOME/.gitstart_config
 
 usage() {

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 API_URL="https://api.github.com/user/repos"
-TOKEN="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"
+TOKEN=""
 
 echo "Please provide the name of repo?"
 read REPO_NAME
